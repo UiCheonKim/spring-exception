@@ -1,0 +1,12 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+    include-exception: true
+    # on_param, always, never (default: never)
+    # on_param: 파라미터에 따라 에러 로그를 출력한다.
+    # always: 항상 에러 로그를 출력한다.
+    # never: 에러 로그를 출력하지 않는다.
+    include-message: always
+    include-stacktrace: on_param
+    include-binding-errors: on_param
